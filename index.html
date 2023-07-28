@@ -1,0 +1,162 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonia Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<style>
+      /*  CSS reset */
+      body{
+        font-family: 'Edu SA Beginner', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url("https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        }
+       .left{
+        border: 2px solid red;
+        display:inline-block; 
+        position: absolute;
+       left: 8px;
+       top: 13px;
+      }
+     .mid{
+        display:block;
+        width: 45%;
+        margin:10px auto;
+        border: 2px solid rgb(77, 176, 77);
+        background-color: black;
+     }
+     .right{
+       /* border:2px solid blue; */
+       display:inline-block; 
+       position: absolute;
+       right: 34px;
+       top: 13px;
+      }
+      .navbar{
+        display: inline-block;
+        }
+      .navbar li{
+        display: inline-block;
+        font-size: 23px;
+      }
+      .navbar li a{
+        color: rgb(174, 145, 145);
+        text-decoration: none;
+        padding: 25px 15px;
+      }
+      .navbar li a:hover, .navbar li :active{
+        text-decoration: underline;
+        color: rgb(174, 59, 59);
+      }
+      .left img{
+        width: 80px;
+        height: 80px;
+      }
+      .left div{
+        text-align: center;
+        color: rgb(150, 145, 188);
+        background-color: black;
+        }
+      .btn{
+        font-family: 'Edu SA Beginner', cursive;
+        margin: 0px 9px;
+        padding: 4px 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .btn:hover{
+        background-color: gray;
+      }
+      .container{
+        border: 2px solid rgb(22, 16, 1);
+        margin:100px 80px;
+        padding: 75px;
+        width:34%;
+        border-radius: 20px;
+
+      }
+      .form-group input{
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 3px;
+        border: 2px solid black;
+        margin: 1px auto;
+        font-size: 24px;
+        border-radius: 10px;
+        font-family: 'Edu SA Beginner', cursive;
+      }
+      .container button{
+        display: block;
+        margin: auto;
+      }
+     #head{
+        margin: auto;
+        font-size: 25px;
+        top: 10px;
+        border: 2px solid black;
+        background-color: black;
+        color: aqua;
+        
+      }
+        
+
+    </style>
+  <body> 
+    <header class="header">
+        <div class="left">
+      <!-- left box foe logo -->
+    <img src="gym_logo1.jpg" alt="">
+    <div>
+     <b> Sonia Fitness </b>
+    </div>
+    </div>
+        <div class="mid">
+        <!-- middle box for navigation bar -->
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        </div>
+        <div class="right">
+        <!-- right box for buttond -->
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+   </header>
+   <div class="container">
+    <h1 id="head">JOIN THE BEST GYM OF GUMLA NOW</h1>
+    <br>
+    <br>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" id="" placeholder="Enter your name">
+      </div>
+      <br>
+      <div class="form-group">
+        <input type="text" name="" id="" placeholder="Enter your age">
+      </div>
+      <br>
+      <div class="form-group">
+        <input type="text" name="" id="" placeholder="Enter your Gender">
+      </div>
+      <br>
+      <div class="form-group">
+        <input type="text" name="" id="" placeholder="Enter your locality">
+      </div>
+      <br>
+      <button class="btn">Submit</button>
+    </form>
+   </div>
+  </body>
+</html>
